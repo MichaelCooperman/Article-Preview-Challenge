@@ -1,0 +1,152 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+h2 {
+  color: #48556a;
+  line-height: 120%;
+}
+
+h3 {
+  color: #48556a;
+  margin: 0;
+  margin-top: 20px;
+}
+
+p {
+  color: #48556a;
+  line-height: 160%;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-container {
+  display: flex;
+  background-color: #ecf2f8;
+  height: 300px;
+  width: 325px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.drawers {
+  width: 90%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf2f8;
+  height: 300px;
+  width: 475px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.popup-bubble {
+  position: absolute;
+  background-color: #48556a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  height: 50px;
+  width: 250px;
+  margin-left: 290px;
+  margin-top: 165px;
+  opacity: 1;
+}
+
+.popup-bubble:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 117px;
+  right: auto;
+  top: 50px;
+  bottom: auto;
+  border: 10px solid;
+  border-color: #48556a transparent transparent transparent;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.btn {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 400px;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #9eafc2;
+}
+
+.btn:focus {
+  background-color: #48556a;
+}
+
+.share-txt {
+  color: #ecf2f8;
+  font-size: 1.25rem;
+  margin: 0;
+  margin-right: 25px;
+  float: left;
+}
+
+.profile-pic {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-right: 20px;
+  margin-top: 225px;
+}
+
+.info {
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 60px;
+}
+
+.date {
+  margin: 0;
+}
+
+/* .share {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: #9eafc2;
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+} */
+
+.attribution {
+  position: absolute;
+}
